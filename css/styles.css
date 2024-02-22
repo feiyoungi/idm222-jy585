@@ -6,6 +6,36 @@
     box-sizing: border-box;
 }
 
+/* fonts */
+
+/* header */
+
+/* main body */ 
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+.divider {
+    max-width: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.partial-line {
+    width: 50%;
+    height: 2px;
+    background-color: #333;
+    margin: 0 auto; /* Centers the line */
+    position: absolute; /* Add this to position the line absolutely within the container */
+    top: 50%; /* Position the line vertically at 50% from the top of the container */
+    transform: translateY(-50%); /* Center the line vertically */
+    left: 0; /* Stick the line to the left */
+}
+
+/* footer */ 
 strong { 
     color: blue;
 }
