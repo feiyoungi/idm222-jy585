@@ -18,24 +18,160 @@ body {
     margin: 0;
 }
 
-.divider {
-    max-width: 100px;
-    margin: 0 auto;
-    position: relative;
+/*introduction*/
+
+.introduction-image { 
+    text-align: center;
 }
 
-.partial-line {
-    width: 50%;
-    height: 2px;
-    background-color: #333;
-    margin: 0 auto; /* Centers the line */
-    position: absolute; /* Add this to position the line absolutely within the container */
-    top: 50%; /* Position the line vertically at 50% from the top of the container */
-    transform: translateY(-50%); /* Center the line vertically */
-    left: 0; /* Stick the line to the left */
+.introduction-blurb {
+    text-align: center;
+    color: #EBEBEB;
+}
+
+.rounded-box {
+    border-radius: 10px;
+    background-color: #3A4E5F;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 360px;
+}
+
+/*projects*/ 
+
+.projects {
+    text-align: center;
+}
+
+/*.projects > div {
+    text-align: center;
+    margin: 0 100px;
+}
+
+.projects .le-cat-cafe img,
+.projects .notan-design img {
+    height:auto; 
+    width: 320px;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+
+}
+
+.projects .le-cat-cafe h2,
+.projects .notan-design h2 {
+    text-align:center;
+    width: 320px;
+    margin-bottom: 20px;
+}
+
+.image-container { 
+    width: 320px;
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}*/
+
+
+
+/*header*/ 
+header {
+    text-align: center;
+}
+
+.nav-buttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-buttons ul {
+    list-style: none;
+}
+
+.nav-buttons ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-buttons ul li a:hover {
+    color: #4788c1;
+}
+
+.home-logo {
+    background-color: #3A4E5F;
+    padding: 15px;
+}
+
+.home-logo a {
+    text-decoration: none; 
+    color: #EBEBEB;
 }
 
 /* footer */ 
-strong { 
-    color: blue;
+footer {
+    background-color:#3A4E5F;
+    color: #EBEBEB;
+    padding: 15px;
+}
+
+footer a {
+    color: white;
+    margin-right: 20px;
+    margin-left: 4px;
+    font-size: 1.5rem
+}
+
+footer h3 {
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+/*media queries*/ 
+/* large screens */
+@media (min-width: 1200px) {
+    .introduction-blurb {
+        max-width: 80%;
+        text-align: center;
+        color: #EBEBEB; 
+        text-align:center;
+
+    }
+
+    .rounded-box {
+        max-width: 80%; 
+    }
+
+    footer h3 {
+        font-size: 1rem; 
+    }
+
+    .nav-buttons ul li a {
+        display: inline-block;
+    }
+}
+
+/*medium screen*/
+@media (min-width: 768px) {
+    .introduction-blurb {
+        max-width: 90%; 
+    }
+
+    .rounded-box {
+        max-width: 90%; 
+    }
+
+    footer h3 {
+        font-size: 0.9rem; 
+    }
 }
