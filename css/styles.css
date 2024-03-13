@@ -1,5 +1,9 @@
 /* all */ 
-
+:root {
+    --blue: #3A4E5F;
+    --white: #EBEBEB; 
+    --lightblue: #4788c1;
+}
 * { 
     margin: 0; 
     padding: 0; 
@@ -22,16 +26,31 @@ body {
 
 .introduction-image { 
     text-align: center;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.introduction-image img {
+    width: 100%;
+    margin:0 50px;
+}
+
+.intro-img-div {
+
 }
 
 .introduction-blurb {
+    margin: auto; /*centers*/
     text-align: center;
-    color: #EBEBEB;
+    color: var(--white);
 }
 
 .rounded-box {
     border-radius: 10px;
-    background-color: #3A4E5F;
+    background-color: var(--blue);
     padding: 20px;
     margin: 0 auto;
     max-width: 360px;
@@ -40,7 +59,30 @@ body {
 /*projects*/ 
 
 .projects {
+    margin:auto;
+    flex-direction: column;
     text-align: center;
+}
+
+.project-grid {
+    display:grid;
+    grid-template-columns: (1fr);
+}
+
+.project-card {
+    max-width: 450px; 
+    margin: 32px auto;
+    height:
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 15px;
+    border: solid var(--blue) 3px;
+}
+
+.image-container {
+    width: 100%;
 }
 
 /*.projects > div {
@@ -138,8 +180,8 @@ footer h3 {
 }
 
 /*media queries*/ 
-/* large screens */
-@media (min-width: 1200px) {
+/* large screens - base off tablet */
+@media (min-width: 452px) {
     .introduction-blurb {
         max-width: 80%;
         text-align: center;
@@ -159,6 +201,17 @@ footer h3 {
     .nav-buttons ul li a {
         display: inline-block;
     }
+
+    .projects {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .introduction-image {
+        
+    }
+
 }
 
 /*medium screen*/
@@ -173,5 +226,10 @@ footer h3 {
 
     footer h3 {
         font-size: 0.9rem; 
+    }
+
+    .introduction {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
