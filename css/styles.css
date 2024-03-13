@@ -10,10 +10,6 @@
     box-sizing: border-box;
 }
 
-/* fonts */
-
-/* header */
-
 /* main body */ 
 
 body {
@@ -84,45 +80,6 @@ body {
 .image-container {
     width: 100%;
 }
-
-/*.projects > div {
-    text-align: center;
-    margin: 0 100px;
-}
-
-.projects .le-cat-cafe img,
-.projects .notan-design img {
-    height:auto; 
-    width: 320px;
-    margin-top: 30px;
-    border-radius: 10px;
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
-
-}
-
-.projects .le-cat-cafe h2,
-.projects .notan-design h2 {
-    text-align:center;
-    width: 320px;
-    margin-bottom: 20px;
-}
-
-.image-container { 
-    width: 320px;
-    margin-top: 30px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.image-container img {
-    display: block;
-    width: 100%;
-    height: auto;
-}*/
-
-
 
 /*header*/ 
 header {
