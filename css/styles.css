@@ -136,6 +136,31 @@ footer h3 {
     text-align: left;
 }
 
+/* resume settings */
+.section-title h2 {
+    text-align: center;
+    margin-top: 35px;
+
+}
+
+.section {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section h3 {
+    margin-top:35px;
+}
+
+.section h4 {
+    margin-top:15px;
+}
+
+.section p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /*media queries*/ 
 /* large screens - base off tablet */
 @media (min-width: 452px) {
