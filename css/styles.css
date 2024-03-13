@@ -232,4 +232,9 @@ footer h3 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .resume-grid {
+        display:grid;
+        grid-template-columns: repeat(3, 2fr);
+    }
 }
