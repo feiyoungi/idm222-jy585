@@ -217,6 +217,6 @@ footer h3 {
 
     .resume-grid {
         display:grid;
-        grid-template-columns: repeat(3, 2fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
