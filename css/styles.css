@@ -55,7 +55,7 @@ body {
 /*projects*/ 
 
 .projects {
-    margin:auto;
+    margin:auto 10px;
     flex-direction: column;
     text-align: center;
 }
