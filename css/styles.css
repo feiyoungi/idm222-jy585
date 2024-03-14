@@ -54,6 +54,10 @@ body {
 
 /*projects*/ 
 
+.check-this-out {
+    text-align: center;
+    margin-top: 32px;
+}
 .projects {
     margin:auto 10px;
     flex-direction: column;
