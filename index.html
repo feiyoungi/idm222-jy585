@@ -41,19 +41,36 @@
         <div class="intro-img-div">
             <div class="introduction-image">
             <!--Insert image, might want to get rid of the width later and customize in CSS-->
-            <img src="/assets/fei.png" width="200" alt="doodle of fei"></div>
+            <!-- <img src="/assets/fei.png" width="200" alt="doodle of fei"></div> -->
+            <section>
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="/assets/fei-large.png"
+                  />
+                  <source
+                    media="(min-width: 452px)"
+                    srcset="/assets/fei-medium.png"
+                  />
+                  <img
+                    src="/assets/fei.png"
+                    alt="doodle of fei"
+                  />
+                </picture>
+              </section>
             </div>
        
         <!--Into Blurb-->
-        <div class="rounded-box">
-            <div class="introduction-blurb">
-                <h1>HELLO,</h1>
-                <h2>My name is <strong>Fei</strong>. Nice to meet you.</h2>
-                <h3>A User Experience and Interactive Design Student at Drexel University</h3>
-            </div>
-        </div>
-        </div> 
     </div>
+
+    <div class="rounded-box">
+        <div class="introduction-blurb">
+            <h1>HELLO,</h1>
+            <h2>My name is <strong>Fei</strong>. Nice to meet you.</h2>
+            <h3>A User Experience and Interactive Design Student at Drexel University</h3>
+        </div>
+    </div>
+    </div> 
 
     <div class="check-this-out">
         <h3>Check out some of my work!</h3>
@@ -79,6 +96,36 @@
                 </div>
                 <a href="/work.html">
                     <h2>Notan Design</h2>
+                </a>
+            </div>
+            <div class="project-card">
+                <div class="image-container">
+                    <a href="work.html">
+                        <img src="/assets/pokemon.jpg" alt="Pokemon">
+                    </a>
+                </div>
+                <a href="/work.html">
+                    <h2>Pokemon Zodiac</h2>
+                </a>
+            </div>
+            <div class="project-card">
+                <div class="image-container">
+                    <a href="play.html">
+                        <img src="/assets/kelpie.png" alt="Kelpie">
+                    </a>
+                </div>
+                <a href="/play.html">
+                    <h2>The Midnight Snacker: A Kelpie Kitchen Mixer</h2>
+                </a>
+            </div>
+            <div class="project-card">
+                <div class="image-container">
+                    <a href="play.html">
+                        <img src="/assets/snorlax.png" alt="Snorlax Arduino">
+                    </a>
+                </div>
+                <a href="/play.html">
+                    <h2>The Snack Gaurdian: An Arduino Project</h2>
                 </a>
             </div>
         </div>      
